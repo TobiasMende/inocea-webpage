@@ -15,8 +15,8 @@ draft: false
 **We can help you with that.**
 
 - We discover bottlenecks with you and enable your teams to optimize your processes.
-- Together with your teams, we will discover
 - We help you to create the right structures.
+- We coach your teams, to bring your developer productivity to the next level.
 - We assess your technology, architecture and infrastructure and provide you with an actionable report.
 - We apply systemic thinking and help you to foresee the socio-technical consequences of your decisions.
 - We bring know-how, experience and an outside view.
