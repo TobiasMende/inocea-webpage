@@ -1,0 +1,2 @@
+#!/bin/bash
+hugo -s src --minify && rsync -rzP --delete public/ server2:/var/www/vhosts/inocea.consulting/httpdocs/
