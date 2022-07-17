@@ -207,7 +207,12 @@ copyright = "INOCEA Consulting Ltd."
 #url= "https://www.linkedin.com"
 #label = "LinkedIn"
 #
-#[[params.footer.quicklinks]]
-#text = "Design: "
-#url= "https://www.html5up.net"
-#alt = "HTML5 UP"
+[[params.footer.quicklinks]]
+text = ""
+url= "/imprint"
+alt = "Imprint"
+
+[[params.footer.quicklinks]]
+text = ""
+url= "/privacy-policy"
+alt = "Privacy Policy"
