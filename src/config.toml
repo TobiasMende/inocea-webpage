@@ -43,10 +43,7 @@ url = "#"
 [[params.navigation.links]]
 name = "Mission"
 url = "mission"
-#
-#[[params.navigation.links]]
-#name = "Generic Blog"
-#url = "blogs/ipsum"
+
 #
 #[[params.navigation.links]]
 #name = "Elements"
@@ -59,11 +56,12 @@ url = "mission"
 #    name = "NameOfLink"
 #    url = "UrlOfLink"
 
-## Button Style 1
-#[[params.navigation.button1]]
-#name = "Get Started"
-#url = "blogs"
-#
+# Button Style 1
+[[params.navigation.button1]]
+name = "Book appointment"
+url = "https://calendly.com/tobiasmende/inocea"
+target = "_blank"
+
 ## Button Style 2
 #[[params.navigation.button2]]
 #name = "Log In"

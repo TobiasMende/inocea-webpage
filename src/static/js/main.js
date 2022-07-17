@@ -291,18 +291,22 @@
 				.on('click', 'a', function(event) {
 
 					var href = $(this).attr('href');
+					var target = $(this).attr('target')
 
 					event.preventDefault();
 					event.stopPropagation();
 
 					// Hide.
 						$menu._hide();
-
-					// Redirect.
+					if (target == '_blank')
+						window.open(href);
+					else {
+						// Redirect.
 						window.setTimeout(function() {
 							window.location.href = href;
 						}, 250);
 
+					}
 				});
 
 			$menu
