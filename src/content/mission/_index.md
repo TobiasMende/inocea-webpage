@@ -2,6 +2,7 @@
 title: "Our Mission"
 date: 2022-07-17T10:30:00
 draft: false
+layout: "single"
 ---
 
 **Your startup has a purpose. – We help you to make it happen.**
