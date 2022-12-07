@@ -58,8 +58,8 @@ url = "mission"
 
 # Button Style 1
 [[params.navigation.button1]]
-name = "Book appointment"
-url = "https://calendly.com/tobiasmende/inocea"
+name = "Learn More"
+url = "https://unblocked.engineering"
 target = "_blank"
 
 ## Button Style 2
