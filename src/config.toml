@@ -13,7 +13,7 @@ theme = 'forty'
 
 # Provide your metadata here.
 name = "INOCEA Consulting Ltd."
-description = "Helping Startups to achieve Technical Excellence!"
+description = "Helping Companies to achieve Technical Excellence!"
 
 # Link custom assets relative to /static
 custom_css = []
@@ -72,8 +72,8 @@ target = "_blank"
 [params.banner]
 # To change the background image on the homepage banner, replace 'banner.jpg' in
 # the 'static/img' folder.
-title = "High Performance for Tech Startups"
-subtitle = "WE HELP STARTUPS TO ACHIEVE TECHNICAL EXCELLENCE"
+title = "High Performance for Tech Companies"
+subtitle = "WE HELP COMPANIES TO ACHIEVE TECHNICAL EXCELLENCE"
 buttonText = "Learn more"
 
 
@@ -83,17 +83,19 @@ enable = true
 # Display your showcases here.
 
 [[params.tiles.showcase]]
-title = "Our Founder"
-subtitle = "Visit the website of our founder"
-image = "tobi.jpg"
-url = "https://mende.io"
-target = "_blank"
-
-[[params.tiles.showcase]]
 title = "Our Mission"
-subtitle = "WE HELP STARTUPS TO ACHIEVE HIGH PERFORMANCE"
+subtitle = "WE HELP COMPANIES TO ACHIEVE HIGH PERFORMANCE"
 image = "pic02.jpg"
 url = "mission"
+
+[[params.tiles.showcase]]
+title = "Our Offer"
+subtitle = "We help you to achieve engineering excellence. – Have a look at our program \"unblocked.engineering\""
+image = "leadership.jpg"
+url = "https://unblocked.engineering"
+target = "_blank"
+
+
 #
 #[[params.tiles.showcase]]
 #title = "Magna"
