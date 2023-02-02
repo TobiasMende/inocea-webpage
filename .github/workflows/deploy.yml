@@ -23,8 +23,7 @@ jobs:
         env:
           VPS_DEPLOY_KEY: ${{ secrets.VPS_DEPLOY_KEY }}
           VPS_DEPLOY_USER: ${{ secrets.VPS_DEPLOY_USER }}
-          VPS_DEPLOY_HOST: www512.your-server.de
-          VPS_DEPLOY_PORT: 222
+          VPS_DEPLOY_HOST: www512.your-server.de:222
           VPS_DEPLOY_DEST: ./public_html/
         with:
           hugo-arguments: '--minify'
